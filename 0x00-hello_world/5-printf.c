@@ -2,9 +2,9 @@
 /**
  * main - Entry point
  *
- * Discription : A C that runs a printf function
+ * Discription: A C that runs a printf function
  *
- * Return : always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
