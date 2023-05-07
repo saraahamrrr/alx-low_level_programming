@@ -11,8 +11,7 @@
 int main(void)
 {
 	int num = 0;
-	char ch = 'a';
-
+	
 	while (num <= 102)
 	{
 		putchar(num + '0');
