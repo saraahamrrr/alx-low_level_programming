@@ -6,7 +6,7 @@
  * Description: 'the program's description'
  *
  * Return: Always 0 (Success)
- */
+*/
 
 int main(void)
 {
@@ -19,10 +19,10 @@ int main(void)
 		ch++;
 	}
 	while (CH <= 'Z')
-        {
-                putchar(CH);
-                CH++;
-        }
+	{
+		putchar(CH);
+		CH++;
+	}
 
 
 	putchar('\n');
