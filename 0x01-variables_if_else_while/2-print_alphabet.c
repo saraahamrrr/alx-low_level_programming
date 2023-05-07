@@ -1,5 +1,4 @@
-#include <stdtio.h>
-
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -10,9 +9,9 @@
 
 int main(void)
 {
-	char n = 97;
+	char n = 'a';
 
-	while (n <= 122)
+	while (n <= 'z')
 {
 	putchar(n);
 	n++;
