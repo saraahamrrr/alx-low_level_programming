@@ -9,7 +9,7 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	*(p + 5) = 98; 	// Set the sixth element after p to 98
-	printf("a[2] = %d\n", a[2]); 	// Expect 98 to be printed
+	*(p + 5) = 98;
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
