@@ -16,18 +16,18 @@ void print_triangle(int size)
 		{
 			for (k = spc; k > 0; k--)
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
 			for (j = 0; j <= i; j++)
 			{
-				_putchar('#');
+				putchar('#');
 			}
-			_putchar('\n');
+			putchar('\n');
 			spc--;
 		}
 	}
 	else
 	{
-		_putchar('\n');
+		putchar('\n');
 	}
 }
