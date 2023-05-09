@@ -23,7 +23,7 @@ int largest_number(int a, int b, int c)
 	}
 	else
 	{
-	largest = c
+	largest = c;
 	}
 
 	return (largest);
@@ -45,7 +45,7 @@ void print_remaining_days(int month, int day, int year)
 	*/
 	if ((year % 100 == 0 && year % 400 == 0) || (year % 4 == 0))
 	{
-	if (month >= 2 && day >= 60)
+	if (month > 2 && day >= 60)
 	{
 	day++;
 	}
